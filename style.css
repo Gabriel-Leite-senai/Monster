@@ -30,14 +30,36 @@ header div {
 }
 .headerlogo {
     width: 110px;
+
 }
 
 main{
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+h1 b {
+    color: #6BD41A;
+}
+.texto-pricipal {
+    width: 132px;
+    margin-left: 16px;
+}
+.texto-secundario{
+    color: #CCCCCC;
+}
+.imagem-principal {
+    width: 124px;
+    margin-right: 16px;
 }
 
 footer {
-    height: 90px;
+    height: 75px;
     padding-left: 24px;
     padding-right: 24px;
     display: flex;
@@ -53,7 +75,7 @@ footer img {
 .seta-direita {
     transform: scaleX(-1);
 }
-footer span {
+.made-by {
     color: #AAAAAA;
     text-align: center;
     font-weight: 300;

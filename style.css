@@ -31,3 +31,32 @@ header div {
 .headerlogo {
     width: 110px;
 }
+
+main{
+    flex-grow: 1;
+}
+
+footer {
+    height: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.setas {
+    display: flex;
+    justify-content: space-between;
+}
+footer img {
+    height: 23px;
+}
+.seta-direita {
+    transform: scaleX(-1);
+}
+footer span {
+    color: #AAAAAA;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 24px;
+}

@@ -22,6 +22,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.prom {
+    display: none;
+}
 header div {
     display: flex;
     align-items: center;
@@ -38,7 +41,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
+.background {
+    display: none;
+    position: absolute;
+}
+
 h1 {
     font-size: 40px;
     line-height: 40px;
@@ -50,12 +59,19 @@ h1 b {
     width: 132px;
     margin-left: 16px;
 }
-.texto-secundario{
+.texto-pricipal-secundario{
     color: #CCCCCC;
 }
 .imagem-principal {
     width: 124px;
     margin-right: 16px;
+}
+.monster-tipo {
+    display: none;
+    font-size: 3rem;
+}
+.monster-tipo img {
+    width: 62px;
 }
 
 footer {
@@ -81,4 +97,48 @@ footer img {
     font-weight: 300;
     font-size: 0.7rem;
     margin-top: 24px;
+}
+
+@media (min-width: 1000px) {
+    .prom {
+        position: absolute;
+        display: block;
+        left: 50%;
+        transform: translatex(-50%);
+        font-size: larger;
+    }
+    .background {
+        display: inline;
+        left: 50%;
+        transform: translatex(-50%);
+        z-index: -200;
+        opacity: 5%;
+    }
+    .imagem-principal {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
+    h1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .texto-pricipal {
+        width: 171px;
+        margin-left: 64px;
+    }
+    .imagem-principal {
+        width: 168px;
+    }
+
+    .monster-tipo {
+        line-height: 2rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        width: 177px;
+        text-align: center;
+        align-items: center;
+    }
 }

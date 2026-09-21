@@ -144,6 +144,7 @@ footer img {
         width: 177px;
         text-align: center;
         align-items: center;
+        margin-right: 64px;
     }
     .setas  {
         justify-content: space-around;

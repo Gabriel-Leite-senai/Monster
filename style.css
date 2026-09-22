@@ -52,7 +52,13 @@ h1 {
     font-size: 40px;
     line-height: 40px;
 }
-h1 b {
+.texto-vemelho {
+    color: rgb(231, 80, 80);
+}
+.texto-violeta {
+    color: violet;
+}
+.texto-verde {
     color: #6BD41A;
 }
 .texto-pricipal {

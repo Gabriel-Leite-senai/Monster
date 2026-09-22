@@ -54,6 +54,7 @@ h1 {
 }
 .texto-vemelho {
     color: rgb(231, 80, 80);
+    word-break: break-word;
 }
 .texto-violeta {
     color: violet;
@@ -109,6 +110,9 @@ footer img {
     header {
         margin-left: 64px;
         margin-right: 64px;
+    }
+    .texto-vemelho {
+        word-break: normal;
     }
     .prom {
         position: absolute;
